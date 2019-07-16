@@ -37,4 +37,3 @@ def full?(board)
     full_board == "X" || full_board == "O"
   end
 end
-
