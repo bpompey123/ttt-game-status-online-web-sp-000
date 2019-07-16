@@ -34,7 +34,6 @@ end
 
 def full?(board)
   board.all? do |full_board|
-    
-    position_taken(board, index)
+    full_board == "X"
   end
 end
