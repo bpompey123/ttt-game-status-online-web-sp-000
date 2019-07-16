@@ -30,3 +30,11 @@ def won?(board)
 
   end
 end
+
+
+def full?(board)
+  board.all? do |full_board|
+    
+    position_taken(board, index)
+  end
+end
